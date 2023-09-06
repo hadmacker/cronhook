@@ -2,6 +2,8 @@
 
 Web App with webhook registration that allows callers to subscribe to cron notification in the form of webhooks.
 
+Application triggers an event every 30 seconds. For each webhook, sends a signed request to the target destination. Allows for the addition and removal of webhooks using an in-memory repository.
+
 # Technical Reference
 
 ## ASP.NET Core
